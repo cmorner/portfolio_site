@@ -1,7 +1,16 @@
 //Reset
-body, h2 {
+body, h2, ul{
 		margin: 0;
+		padding: 0;
 		font-weight: inherit;
+}
+
+ul {
+	list-style-type: none;
+}
+
+img {
+	display: block;
 }
 
 //Styles
@@ -14,15 +23,26 @@ body {
 	padding-top: 1em;
 }
 
-// Specifics
+
+// Attributes
+.centered {
+	margin: auto;
+}
+
+.margin-bottom {
+	margin-bottom: 1em;
+}
+
+// Specifics 
 .container {
-	max-width: 60em;
+	width: 100%;
 	height: 500px;
+	margin: 0 1em 0 1em;
 	// background: #222222;
 }
 
-
-
-.centered {
-	margin: auto;
+.header {
+	h2 span {
+		color: #B0B0B0;
+	}
 }
