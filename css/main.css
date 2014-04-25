@@ -1,0 +1,18 @@
+body, h2 {
+  margin: 0;
+  font-weight: inherit; }
+
+body {
+  background: #111010;
+  font-size: 16px;
+  font-family: 'Lato', 'sans-serif';
+  font-weight: 100;
+  color: #F0F0F0;
+  padding-top: 1em; }
+
+.container {
+  max-width: 60em;
+  height: 500px; }
+
+.centered {
+  margin: auto; }
